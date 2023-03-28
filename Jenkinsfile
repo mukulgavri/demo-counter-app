@@ -10,9 +10,9 @@ pipeline{
                 
                 script{
                     
-                    'git branch: 'main', url: https://github.com/mukulgavri/demo-counter-app.git'
+                    git branch: 'main', url: 'https://github.com/mukulgavri/demo-counter-app.git'
                 }
             }
         }
     }
-}  
+}
